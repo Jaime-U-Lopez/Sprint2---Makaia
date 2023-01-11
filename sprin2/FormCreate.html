@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/FormCreate.css">
+    <title>Form Create or update</title>
+</head>
+<body>
+    
+<a href="./index.html"> Go back </a>
+<h1 class="titleForm">Form create new video  </h1>
+
+
+<form action=""  class="form  formCreate">
+
+
+<label for="title"> Title</label>
+<input id="title" type="text"  placeholder="Title  video " required>
+<label for="name"> Name creator</label>
+<input id="name" type="text" placeholder="Name" required>
+<label for="path"> Path video  </label>
+<input id="link" type="text" name=""  placeholder="Path of video" required>
+<label for="path"> Additional  </label>
+<input id="adiciones" type="text" name=""  placeholder="Additional information" required>
+<label for=""> Selection Category</label>
+<select  id="category" >
+    <option value="developer"> Developer</option>
+    <option value="diseño"  > Diseño</option>
+    <option  value="music" > Music</option>
+    <option  value="otra" > Other</option>
+</select>
+
+
+
+
+
+<div class="btnForm">
+
+    
+    <button class="btnS" type="submit"> Create</button>
+    <button  class="btnCancel" type="reset"> Cancel</button>
+
+
+</div>
+
+
+</form>
+
+<script src="./scripts/Form.js" type="module"></script>
+</body>
+</html>

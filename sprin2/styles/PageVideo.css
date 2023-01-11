@@ -1,0 +1,320 @@
+* {
+  background-color: rgb(11, 11, 11);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.Nav {
+  display: flex;
+  background-color: rgb(11, 11, 11);
+  width: auto;
+  height: 60px;
+}
+
+.figure2 {
+  display: flex;
+  background-color: rgb(11, 11, 11);
+  height: 60px;
+}
+
+.imageSearch {
+  margin-top: 5px;
+  height: 44px;
+  width: 50px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgb(104, 81, 81);
+  padding-left: 6px;
+}
+
+.imageSearch img {
+  padding-top: 7px;
+  padding: auto;
+  height: 70%;
+  width: 60%;
+  background-color: rgb(104, 81, 81);
+}
+
+.Figure {
+  background-color: rgb(11, 11, 11);
+  margin: 0px;
+}
+
+.Figure img {
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
+  margin-right: 45%;
+  padding: 10px;
+  background-color: rgb(11, 11, 11);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.Nav input {
+  background-color: rgb(11, 11, 11);
+  color: white;
+  height: 44px;
+  width: 400px;
+  margin-left: auto;
+  margin-top: 5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-right: 0;
+  border-color: rgb(182, 151, 151);
+  padding: 10px;
+}
+
+.Nav h1 {
+  background-color: rgb(11, 11, 11);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  margin-top: 17px;
+  margin-right: 50px;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+}
+
+.SecctionVideoBig {
+  display: flex;
+  background-color: rgb(11, 11, 11);
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contenedorCardsVertical{
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.CardVideosMini{
+display: flex;
+margin-left: 5px;
+width: 550px;
+height: 150px;
+position: relative;
+margin: auto;
+margin-right: 5px;
+
+}
+
+
+.ajustParrafo{
+
+
+    width: 300px;
+
+}
+
+.CardVideosMini video{
+
+    margin: 6px;
+    border: solid;
+    border-color: rgb(51, 47, 47);
+    height: 100%;
+    width: 200px;
+      object-fit: cover;
+     object-position: top;
+     position: relative;
+
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+
+
+
+
+.contenedorCards {
+  display: flex;
+  padding: 10px;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+.Card_video h4 {
+  color: aliceblue;
+}
+
+.Card_video p {
+  color: rgb(104, 81, 81);
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+
+.Card :hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transform: scale(1.01);
+}
+
+.main__filtros {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+
+
+@media ( max-width: 600px) {
+  
+
+
+.MainSeeVideo{
+  width: 95%;
+  margin: auto;
+}
+
+  .SecctionVideoBig{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+  }
+
+
+
+  .video {
+    position: absolute;
+    bottom: 0;
+
+    padding: auto;
+    height: auto;
+  }
+
+  .Main{
+
+
+    margin-top: 5px;
+    margin: 50px,6% 50px,6%,;
+  }
+
+
+  .VideoBig{
+    width: 100%;
+  }
+
+  .VideoBig video{
+
+    width: 97%;
+    margin: auto;
+    height: auto;
+  }
+
+  .VideoBig h2,p{
+
+    width: 90%;
+    margin: auto;
+  }
+
+
+  .SecctionVideoBig{
+    width: 100%;
+  }
+  .contenedorCardsVertical{
+
+    width: 90%;
+    margin: auto;
+
+  }
+
+.CardVideosMini{
+
+  width: 100%;
+  margin: auto;
+}
+
+
+  
+  .Card {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 5%;
+    margin:0,6% 0, 6%;
+    color: rgb(248, 248, 242);
+  }
+
+  .Nav {
+    display: flex;
+    background-color: rgb(11, 11, 11);
+
+    height: 60px;
+    position: relative;
+    margin-bottom: 5px;
+
+  }
+
+  .figure2{
+    
+    width: 100%;
+    justify-items: right;
+  }
+  .Nav a{
+    display: none;
+  }
+
+  .Nav input {
+    width: 100%;
+
+  }
+
+  .SectionBtn{
+
+    width: 100%;
+    margin: auto;
+    display: none;
+
+
+  }
+
+  .card__delete ,
+  .card__edit{
+    display: none;
+  }
+
+  .Btn {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+  ;
+    width: 90%;
+    height: 100%;
+
+  }
+
+  .OrdenFiguraNav1{
+    display: flex;
+
+    
+    }
+}
+

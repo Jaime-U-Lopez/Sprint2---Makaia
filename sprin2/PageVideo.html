@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/PageVideo.css" />
+    <title>VideoTube - See Video</title>
+  </head>
+
+  <body>
+    <header class="Header">
+      <nav class="Nav">
+        <figure class="Figure">
+          <img src="./image/Screenshot from 2023-01-06 14-57-03.png" alt="" />
+        </figure>
+        <h1>VideoTube</h1>
+        <figure class="figure2">
+          <input
+            type="search"
+            name=" Search Video"
+            id=""
+            placeholder="Search Video!"
+          />
+          <figure class="imageSearch">
+            <img src="./image/search.png" alt="" />
+          </figure>
+        </figure>
+        <a href="./index.html"> Go back </a>
+      </nav>
+    </header>
+
+    <main class="MainSeeVideo">
+      <section class="SecctionVideoBig">
+        <article class="VideoBig">
+
+          <video width="680" height="450" controls   autoplay>
+            <source
+              src="./video/Insertar un video de youtube en una página HTML.mp4"
+              type="video/mp4"
+            
+            />
+            <source
+              src="./video/Aprende React en 15 Minutos 📘.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+
+          <h2>Insertar un video de youtube en una página HTML</h2>
+          <p>54 vistas - hace 16 minutos</p>
+        </article>
+
+        <article class="contenedorCardsVertical" id="contenedorCards">
+            <h2>Videos sugeridos</h2>
+
+          <figure class="CardVideosMini">
+            <video width="220" height="150" controls>
+              <source
+                src="./video/Insertar un video de youtube en una página HTML.mp4"
+                type="video/mp4"
+              />
+              <source
+                src="./video/Aprende React en 15 Minutos 📘.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+
+            <article  class="ajustParrafo">
+              <h2>Insertar un video de youtube en una página HTML</h2>
+              <p>54 vistas - hace 16 minutos</p>
+            </article>
+          </figure>
+          
+        </article>
+      </section>
+    </main>
+
+    <script src="./scripts/PageVideo.js" type="module"></script>
+  </body>
+</html>

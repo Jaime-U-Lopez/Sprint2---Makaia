@@ -1,0 +1,322 @@
+* {
+  background-color: rgb(11, 11, 11);
+}
+
+.Nav {
+  display: flex;
+  background-color: rgb(11, 11, 11);
+  width: auto;
+  height: 60px;
+}
+
+.figure2 {
+  display: flex;
+  background-color: rgb(11, 11, 11);
+  height: 60px;
+}
+
+.imageSearch {
+  margin-top: 5px;
+  height: 44px;
+  width: 50px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgb(104, 81, 81);
+  padding-left: 6px;
+}
+
+.imageSearch img {
+  padding-top: 7px;
+  padding: auto;
+  height: 70%;
+  width: 60%;
+  background-color: rgb(104, 81, 81);
+}
+
+.Figure {
+  background-color: rgb(11, 11, 11);
+  margin: 0px;
+}
+
+.Figure img {
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
+  margin-right: 45%;
+  padding: 10px;
+  background-color: rgb(11, 11, 11);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.Nav input {
+  background-color: rgb(11, 11, 11);
+  color: white;
+  height: 44px;
+  width: 400px;
+  margin-left: auto;
+  margin-top: 5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-right: 0;
+  border-color: rgb(182, 151, 151);
+  padding: 10px;
+}
+
+.Nav h1 {
+  background-color: rgb(11, 11, 11);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  margin-top: 17px;
+  margin-right: 50px;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+}
+
+.Btn {
+  display: flex;
+  height: 45px;
+  margin: 5px;
+  padding: auto;
+}
+
+.Btn input {
+  color: white;
+  border-radius: 20px;
+  border: solid 1px;
+  border-color: rgb(182, 151, 151);
+
+  margin: 5px;
+  background-color: rgb(104, 81, 81);
+
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.Card {
+  width: 100px;
+  height: 224px;
+  position: relative;
+  color: rgb(248, 248, 242);
+  margin-bottom: 20px;
+}
+.Btn input:hover {
+  color: rgb(8, 8, 8);
+
+  border-color: rgb(83, 73, 73);
+
+  background-color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("../image/Screenshot\ from\ 2023-01-06\ 14-57-03.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Unbounded", cursive;
+}
+
+.header {
+  text-align: center;
+  color: yellow;
+  padding-top: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  color: rgb(251, 251, 249);
+}
+
+.contenedorCards {
+  display: flex;
+  padding: 10px;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Card {
+  width: 300px;
+  height: 224px;
+  position: relative;
+  color: rgb(248, 248, 242);
+  margin-bottom: 20px;
+}
+
+.Card video {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border-color: rgb(104, 81, 81);
+  border: solid 1px;
+}
+
+.Card_video h4 {
+  color: aliceblue;
+}
+
+.Card_video p {
+  color: rgb(104, 81, 81);
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.video {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  padding: 10px 5px;
+}
+
+.Card :hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transform: scale(1.01);
+}
+
+.card__delete,
+.card__edit {
+  font-size: 25px;
+
+  top: 0;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+}
+
+.card__delete:hover,
+.card__edit:hover {
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.main__card:hover .card__delete,
+.main__card:hover .card__edit {
+  display: block;
+}
+
+.card__edit {
+  top: 35px;
+}
+
+
+.OrdenFiguraNav1{
+display: flex;
+
+}
+
+
+
+.btnChange{
+color: white;
+background-color: rgb(95, 74, 74);
+margin: auto;
+width: 100px;
+height: 30px;
+padding: auto;
+border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .video {
+    position: absolute;
+    bottom: 0;
+
+    padding: auto;
+  }
+
+  .Main{
+
+
+    margin-top: 5px;
+    margin: 50px,6% 50px,6%,;
+  }
+
+
+  
+  .Card {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 5%;
+    margin:0,6% 0, 6%;
+    color: rgb(248, 248, 242);
+  }
+
+  .Nav {
+    display: flex;
+    background-color: rgb(11, 11, 11);
+
+    height: 60px;
+    position: relative;
+    margin-bottom: 5px;
+
+  }
+
+  .figure2{
+    
+    width: 100%;
+    justify-items: right;
+  }
+  .Nav a{
+    display: none;
+  }
+
+  .Nav input {
+    width: 100%;
+
+  }
+
+  .SectionBtn{
+
+    width: 100%;
+    margin: auto;
+    display: none;
+
+
+  }
+
+  .card__delete ,
+  .card__edit{
+    display: none;
+  }
+
+  .Btn {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+  ;
+    width: 90%;
+    height: 100%;
+
+  }
+
+  .OrdenFiguraNav1{
+    display: flex;
+
+    
+    }
+}
